@@ -34,20 +34,23 @@ switch (day) {
 
 }
 
+let num1 = 25;
+let num2 = 30;
+let operator = "+"
 
+switch (operator) {
+    case "+":
+        console.log("addition" , num1+ num2)
+        break;
+    case "-":
+        console.log("addition" , num1- num2)
+        break;
 
-// switch (value = 20) {
-//     case (value <= 10):
-//         console.log("tens")
-       
-//     case (value <= 20):
-//         console.log("twenties")
-//     case (value <= 30):
-//         console.log("thirty")
-    
-//     default:
-//         console.log("fouty")
-// }
+    default:
+        console.log("invalid")
+        break;
+}
+
 
 
 //switch case with true keyword means it checks the value of each case only 
