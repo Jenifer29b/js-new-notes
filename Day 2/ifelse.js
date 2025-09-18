@@ -6,6 +6,8 @@ if (a >= 18) {
     console.log("not able to vote")
 }
 
+// if else statments use to check the multiple condiitons whether true or false 
+
 let age = 90;
 
 if (age < 10) {
@@ -16,6 +18,8 @@ if (age < 10) {
     console.log("elder :" , age)
 }
 
+
+// switch conditions means one condition with multipy possibilities at that time we use switch case
 let day = 1;
 
 switch (day) {
@@ -45,6 +49,9 @@ switch (day) {
 //         console.log("fouty")
 // }
 
+
+//switch case with true keyword means it checks the value of each case only 
+// when the case is true that condiiton only exceute
 
 const value = 20
 
