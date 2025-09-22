@@ -27,7 +27,7 @@ for (let i = 0; i <= 100; i++){
 console.log( "sum of numbers:", x)
 
 
-//factirol
+//factirol 
 let fact = 2;
 for (let i = 1; i <= 5; i++){
     fact *= i
