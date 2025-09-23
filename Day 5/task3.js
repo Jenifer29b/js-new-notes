@@ -24,16 +24,19 @@
 //     num++
 // } while (num <= 5);
 
-let sq = 1;
+let num = 1
 
 do {
-    console.log(sq*=sq)
-    sq++
-}while(sq<=10)
+    console.log(num * num)
+    num++
+}while (num<=10)
 
 
 
-
-
+let i = 10;
+while (i>=1) {
+    console.log(i)
+    i--
+}
 
 

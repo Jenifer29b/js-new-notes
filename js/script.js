@@ -37,11 +37,12 @@ console.log(a + b)
 // }
 // console.log(num)
 
-let pass = prompt("enter the password")
+let pass 
 
 do {
+    pass = prompt("enter the password:")
+    console.log("password not ok")
+    
+} while (pass !== admin123)
     
     console.log("password ok")
-} while (pass === "admin123");
-
-console.log("password not ok")
