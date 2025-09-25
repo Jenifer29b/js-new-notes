@@ -37,12 +37,32 @@ console.log(a + b)
 // }
 // console.log(num)
 
-let pass 
+// let pass
 
-do {
-    pass = prompt("enter the password:")
-    console.log("password not ok")
+// do {
+//     pass = prompt("enter the password:")
+//     console.log("password not ok")
     
-} while (pass !== admin123)
+// } while (pass !== admin123)
     
-    console.log("password ok")
+//     console.log("password ok")
+
+let n = Number(prompt("enter an number:"));
+let fact = 1;
+
+for (let i = 1; i <= n; i++){
+    fact *= i;
+   
+}
+console.log(fact)
+
+let num = 17;
+let isprime = true;
+
+for (let i = 2; i < num;i++){
+    if (num % i == 0) {
+        isprime = true;
+        break;
+    }
+}
+console.log(isprime?"prime" : "not prime")
