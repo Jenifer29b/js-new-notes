@@ -47,22 +47,16 @@ console.log(a + b)
     
 //     console.log("password ok")
 
-let n = Number(prompt("enter an number:"));
-let fact = 1;
+// let n = Number(prompt("enter an number:"));
+// let fact = 1;
 
-for (let i = 1; i <= n; i++){
-    fact *= i;
+// for (let i = 1; i <= n; i++){
+//     fact *= i;
    
-}
-console.log(fact)
+// }
+// console.log(fact)
 
-let num = 17;
-let isprime = true;
 
-for (let i = 2; i < num;i++){
-    if (num % i == 0) {
-        isprime = true;
-        break;
-    }
-}
-console.log(isprime?"prime" : "not prime")
+let num = Number(prompt("enter an number"))
+let rev = parseInt(num.toString().split('').reverse().join(''))
+console.log(rev)
