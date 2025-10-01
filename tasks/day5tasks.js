@@ -72,14 +72,19 @@ console.log(isprime ? "prime num" : "not an prime")
 //     console.log(row)
 // }
 
-let n = 10;
-let a = 1;
-let b = 2
+// let n = 10;
+// let a = 1;
+// let b = 2
 
-for (let i = 1; i <= n; i++){
-    let c = a + b;
-    console.log(c)
-    a = b;
-    b = c;
+// for (let i = 1; i <= n; i++){
+//     let c = a + b;
+//     console.log(c)
+//     a = b;
+//     b = c;
+// }
+
+for (let i = 1; i <= 10; i++){
+    if (i % 2 !== 0) {
+        console.log('*'.repeat(i));
+    }
 }
-
