@@ -57,6 +57,29 @@ console.log(a + b)
 // console.log(fact)
 
 
-let num = Number(prompt("enter an number"))
-let rev = parseInt(num.toString().split('').reverse().join(''))
-console.log(rev)
+// let num = Number(prompt("enter an number"))
+// let rev = parseInt(num.toString().split('').reverse().join(''))
+// console.log(rev)
+
+// let prime = Number(prompt("enter an number :"))
+// let isprime = true;
+
+// for (let i = 2; i <= Math.sqrt(prime); i++){
+//     if (prime % i == 0) {
+//         isprime = false;
+//         break
+//     }
+// }
+// console.log(isprime ? "prime num" : "not an prime")
+
+
+let fib = Number(prompt("enter an num series:"))
+
+let x = 1; let y = 2;
+
+for (let i = 1; i <= fib; i++){
+    let c = x + y;
+    console.log(c)
+    x = y
+    y = c;
+}
