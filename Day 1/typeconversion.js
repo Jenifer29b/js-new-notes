@@ -12,6 +12,6 @@ console.log(Boolean(1))
 
 // Implicit conversion which means js automatically converts the datatype from one to another during operations 
 
-console.log("5" + 2)
-console.log("5" - 2)
-console.log(true + 1)
+console.log("5" + 2)  //Converts number into string
+console.log("5" - 2)  // converts string into number
+console.log(true + 1) // convert boolean into number
