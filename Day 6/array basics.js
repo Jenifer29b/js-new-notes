@@ -12,7 +12,7 @@ console.log(arr.shift()) // removing the element in starting of an array
 console.log(arr)
 
 let arr1 = ["birds", "names", "things", "animals", "toys"]
-console.log(arr1.length)
+console.log(arr1.length)  // in array length means no:of:elemenst in array container
 console.log(arr1.indexOf("things"));
 console.log(arr1.includes("name"))
 arr1[2] = "place"
