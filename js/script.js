@@ -84,4 +84,21 @@ console.log(a + b)
 //     y = c;
 // }
 
+let num = Number(prompt("enter any number : "))
+let rannum = Math.floor(Math.random() * 10)
+console.log(num)
+console.log(rannum)
 
+while (true) {
+    if (num == rannum) {
+        console.log("you're right")
+        break;
+} else if (num < rannum) {
+        console.log("lesser than")
+        break;
+} else {
+    console.log("greater than")
+    }
+    break;
+    
+}
