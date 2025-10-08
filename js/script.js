@@ -73,13 +73,15 @@ console.log(a + b)
 // console.log(isprime ? "prime num" : "not an prime")
 
 
-let fib = Number(prompt("enter an num series:"))
+// let fib = Number(prompt("enter an num series:"))
 
-let x = 1; let y = 2;
+// let x = 1; let y = 2;
 
-for (let i = 1; i <= fib; i++){
-    let c = x + y;
-    console.log(c)
-    x = y
-    y = c;
-}
+// for (let i = 1; i <= fib; i++){
+//     let c = x + y;
+//     console.log(c)
+//     x = y
+//     y = c;
+// }
+
+
