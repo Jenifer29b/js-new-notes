@@ -72,3 +72,16 @@ switch (true) {
 }
 
 
+let temp = 24;
+
+switch (true) {
+    case (temp < 50):
+        console.log("hot")
+        break;
+    case (temp > 100):
+        console.log("cold")
+        break;
+    default:
+        console.log("invalid")
+        break;
+}
