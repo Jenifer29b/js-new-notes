@@ -15,11 +15,19 @@ let obj = {
 }
 
 for (let obj1 in obj) {
-    console.log(obj[obj1])
+    console.log("object Value usinf for in :",obj[obj1])
 }
 
 for (let keys of Object.keys(obj)) {
-    console.log(keys)
+    console.log("object key :" , keys)
+}
+
+for (let values of Object.values(obj)) {
+    console.log("object Values : " , values)
+}
+
+for (let entries of Object.entries(obj)) {
+    console.log("object entries : " , entries)
 }
 
 // let arr1 = ["names", "places", "things", "animals"]
@@ -27,3 +35,12 @@ for (let keys of Object.keys(obj)) {
 // for (let num of arr1) {
 //     console.log(num.length)  // here length describes the no:of:characters in particular string
 // }
+
+let array = ["Jan", "feb", "march", "april", "may"]
+
+for (let months of array) {
+    console.log("month : ", months)
+}
+
+let str = "feb"
+console.log(str.length)

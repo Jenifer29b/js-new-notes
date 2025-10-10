@@ -11,9 +11,9 @@ console.log(arr)
 console.log(arr.shift()) // removing the element in starting of an array
 console.log(arr)
 
-let arr1 = ["birds", "names", "things", "animals", "toys"]
-console.log(arr1.length)  // in array length means no:of:elemenst in array container
-console.log(arr1.indexOf("things"));
-console.log(arr1.includes("name"))
-arr1[2] = "place"
+let arr1 = ["birds", "names", "things", "animals", "toys","birds"]
+console.log("array length :",arr1.length)  // in array length means no:of:elements in array container with startinf index 0
+console.log(arr1.indexOf("things"));  // returns indexof of particular element with starting index 0
+console.log(arr1.includes("name")) // checks particular inside array or not and return boolean value
+arr1[2] = "place" // modify an array by using index
 console.log(arr1)
