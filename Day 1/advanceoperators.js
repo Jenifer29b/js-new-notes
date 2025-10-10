@@ -17,6 +17,7 @@ console.log(b);
 console.log(c)
 
 //Optional chaining : safely access the nested objects without crashing .. 
+//if the property doesn't exit it returns undefined instead of crashing
 
 let obj = { profile: { name : "jenifer" } }
 console.log(obj.profile?.name)
@@ -29,3 +30,12 @@ const a = {profile : {name : "Jennifer"},area : {
 console.log(a.profile?.name)
 console.log(a.area?.place)
 
+let profile = {
+    name: "jeni",
+    place: "chennai",
+    area: {
+        street : "madurai"
+    }
+}
+console.log(profile?.age)
+console.log(profile.area?.street)
