@@ -27,4 +27,8 @@ let add1 = (a,b) => {
 }
 console.log(add1(20, 20)) // arrow function .. it is the simple function we can create
 
-    
+function hello(name = "jeni") {
+    console.log("hello" , name)
+}
+hello()
+hello("ruban") // default parameter when no parameter will given it will exceute
