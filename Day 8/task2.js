@@ -27,8 +27,26 @@ function fact1(a) {
 console.log(fact1(5))
 
 
-let square = (arr) => {
-    return(arr*arr)
+function square(values) {
+    let squares = [];
+
+    for (let value of values) {
+        squares.push(value*value)
+    }
+    return squares
 }
-console.log(square([2,4,3]))
+console.log(square([1, 2, 3]))
+
+
+let value = "aeiouAEIOU"
+
+function vowels(name) {
+    if (value.includes(name)) {
+        console.log("vowels")
+    }
+    return name
+
+}
+console.log(vowels("jeni"))
+
 
