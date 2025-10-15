@@ -12,7 +12,7 @@ function sayhi() {
     console.log("hello" , names2)
 }
 sayhi()
-// console.log(names2) // here names2 cannot access because it can onlu access within the function
+// console.log(names2) // here names2 cannot access because it can only access within the function
 
 {
     let a = 10;
