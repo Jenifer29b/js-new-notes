@@ -52,3 +52,10 @@ greeeting.extra(", good day")
 greeeting()
 
 
+function createcart(cart) {
+    for (let carts of cart) {
+        console.log([carts.names])
+    }
+
+}
+createcart([{ "names": "places"},{"names" : "location"}])
