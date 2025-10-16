@@ -23,7 +23,8 @@ function createcart(item) {
 
 let cart = createcart(["dress", "shawl","pants"])
 cart.additem()
-cart.newitems("frock")
+
 cart.removeitem("pants")
 cart.showitem()
-
+cart.newitems("frock")
+cart.additem() // its adding again and again all items because of calling all items
