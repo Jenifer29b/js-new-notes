@@ -1,3 +1,7 @@
+//The return statement:
+// Stops the execution of a function immediately.
+// Sends a value back to the place where the function was called.
+
 function add(a, b) {
     return (a+b)
 }
