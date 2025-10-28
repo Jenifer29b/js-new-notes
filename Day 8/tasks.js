@@ -37,10 +37,4 @@ login()
 login("ruban")
 
 
-// IIFE = Immediately Invoked Function Expression 
-//An IIFE (Immediately Invoked Function Expression) in JavaScript is a function that runs immediately
-//  after it is defined — without needing to be called separately.
- const result = (function(a,b){
-  return (a+b)
-})(10,10);
-console.log(result)
+
